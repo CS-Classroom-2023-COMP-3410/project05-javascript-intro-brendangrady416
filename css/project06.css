@@ -22,6 +22,7 @@ body {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
     gap: 5px;
+    grid-template-rows: repeat(10, auto);
 }
 
 .element {
