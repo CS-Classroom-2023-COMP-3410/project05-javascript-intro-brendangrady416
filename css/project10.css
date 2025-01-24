@@ -1,0 +1,170 @@
+/* styles */ 
+
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+  }
+  
+  /* Container */
+  .container {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  /* Settings */
+  #settings {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+  
+  select, button {
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  select {
+    background: #fff;
+    color: #333;
+  }
+  
+  button {
+    background: #ff6b6b;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #ff4757;
+  }
+  
+  /* Trainer Area */
+  #trainer {
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Text Display */
+  #textDisplay {
+    margin: 20px 0;
+    font-size: 1.4em;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    background: #333;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+  
+  /* Error Highlighting */
+  #textDisplay span {
+    transition: 0.3s ease;
+  }
+  
+  #textDisplay span[style*="color: red"] {
+    background: rgba(255, 0, 0, 0.3);
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  #textDisplay span[style*="color: green"] {
+    font-weight: bold;
+  }
+  
+  /* Text Input */
+  textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    background: #444;
+    color: #fff;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Results */
+  #results {
+    margin-top: 20px;
+    font-size: 1.5em;
+  }
+  
+  #results p {
+    margin: 10px 0;
+  }
+  
+  #results span {
+    font-weight: bold;
+    color: #00ff00;
+  }
+  
+  /* Restart Button */
+  #restartBtn {
+    margin-top: 20px;
+    background: #1e90ff;
+    font-size: 1.2em;
+  }
+  
+  #restartBtn:hover {
+    background: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.8em;
+    }
+  
+    #textDisplay {
+      font-size: 1.2em;
+    }
+  
+    textarea {
+      font-size: 1em;
+    }
+  }
+  
